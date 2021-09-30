@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px; 
+}
+
+h1, h2, h3{
+	font-family: 'Roboto', sans-serif;
+}
+p{
+	line-height:1.5;
+	font-family:'Lato', san-serif;
+}
+
+.fuentenueva{
+	line-height:2;
+	font-style:italic;
+	padding:25px;
+}
+#head{
+	background-color: #A5A58D;
+}
+
+body{
+	background-color: #FFE8D6;
+}
+h4{
+	color:#555;
+}
+#buscar{
+	background-color: #fff;
+	border-color: #2F3E46;
+	color: #6B705C;
+	font-weight: 500;
+}
+#buscar:hover{
+	background-color: #6B705C;
+	border-color: #6B705C;
+	color: #fff;
+}
+.form-control:focus, .form-control::before, #buscar:focus, #buscar::before{
+	box-shadow: none;
+	border: 1px solid #6B705C;
+}
+.card-body{
+	background-color: #DDBEA9;
+
+}	
+h1, #input{
+	margin-bottom: 0;
+}
+.list-group-item{
+	background-color: transparent;
+	border: none;
+}
+/*paleta utilizada
+https://coolors.co/cb997e-ddbea9-ffe8d6-b7b7a4-a5a58d-6b705c
+*/	
+@media screen and (max-width: 576px){
+	.top{
+		margin-bottom: .5em;
+	}
+	#form{
+		padding-bottom: .5em;
+	}
+	#map {
+		height: 75vh;
+		width: 100%;
+	}
+	#clima{
+		margin-top: 2em;
+		margin-bottom: 1em;
+	}
+	#mapa{
+		margin-bottom: 2em;
+	}
+}
+@media screen and (min-width: 576px) and (max-width:768px){
+	#form{
+		padding-bottom: 1.5em;
+	}
+	.medio{
+		display: flex;
+		align-items: center;
+	}
+	#map {
+		height: 60vh;
+		width: 100%;
+	}
+	#clima{
+		margin-top: 2em;
+		margin-bottom: 1em;
+	}
+	#mapa{
+		margin-bottom: 2em;
+	}
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+	
+	#form{
+		padding-bottom: 1.5em;
+	}
+	.medio{
+		display: flex;
+		align-items: center;
+	}
+	#map {
+		height: 65vh;
+		width: 100%;
+	}
+	#clima{
+		margin-top: 2em;
+		margin-bottom: 1em;
+	}
+	#mapa{
+		margin-bottom: 2em;
+	}
+}
+@media screen and (min-width: 992px) and (max-width: 1200px){
+	.pcard{
+		margin-bottom: .25em;
+	}
+	.pcard2{
+		margin-bottom: .25em;
+		padding-top: .5em;
+	}
+	#form{
+		padding-bottom: 1.5em;
+	}
+	#map {
+		height: 75vh;
+		width: 100%;
+	}
+	#clima{
+		margin-top: 2em;
+		margin-bottom: 2em;
+	}
+	#mapa{
+		margin-bottom: 2em;
+	}
+}
+@media screen and (min-width: 1200px){
+	.pcard{
+		margin-bottom: .25em;
+	}
+	.pcard2{
+		margin-bottom: .25em;
+		padding-top: .5em;
+	}
+	#form{
+		padding-bottom: 2em;
+	}
+	#map {
+		height: 90vh;
+		width: 100%;
+	}
+	#clima{
+		margin-top: 2em;
+		margin-bottom: 2em;
+	}
+	#mapa{
+		margin-bottom: 2em;
+	}
+}
