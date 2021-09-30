@@ -1,5 +1,5 @@
 const url = 'https://api.openweathermap.org/data/2.5/weather?q=';
-const API_KEY = '';
+const API_KEY = 'ACA VA LA API KEY DE OPEN WEATHER';
 const d = document;
 let info = d.getElementById('info');
 let buscar = d.getElementById('buscar');
